@@ -26,7 +26,6 @@ public class Cave implements Serializable{
     public void listMonsters() {
         int id = 0;
         int listLength = monsters.size();
-        int x = 0
         if(listLength == 0){
             System.out.println("Luola on tyhjä.");
         }
