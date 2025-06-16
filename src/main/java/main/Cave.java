@@ -66,7 +66,7 @@ public class Cave implements Serializable{
             monsters = (ArrayList<Monster>) gameReader.readObject();
             gameReader.close();
             String playerName = player.getName();
-            System.out.println("Peli ladattu tiedostosta " + fileName1 + " Tervetuloa takaisin, " + playerName  + ".");
+            System.out.println("Peli ladattu tiedostosta " + fileName1 + ". Tervetuloa takaisin, " + playerName  + ".");
         } catch (ClassNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

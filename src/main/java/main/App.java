@@ -45,7 +45,7 @@ public class App
                         break;
 
                     case 3:
-                        System.out.println("Valitse hirviö johon haluat hyökätä:");
+                        System.out.println("Valitse hirviö johon hyökätä:");
                         cave.listMonsters();
                         String idString = sc.nextLine();
                         int id = Integer.parseInt(idString);
@@ -58,7 +58,7 @@ public class App
                         break;
 
                     case 4:
-                        System.out.println("Anna tiedoston nimi, johon peli tallennetaa:");
+                        System.out.println("Anna tiedoston nimi, johon peli tallentaa:");
                         String fileName = sc.nextLine();
                         cave.saveGame(fileName);
                         break;
