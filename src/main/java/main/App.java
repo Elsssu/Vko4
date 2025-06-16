@@ -45,7 +45,7 @@ public class App
                         break;
 
                     case 3:
-                        System.out.println("Valitse hirviö johon hyökätä:");
+                        System.out.println("Valitse hirviö, johon hyökätä:");
                         cave.listMonsters();
                         String idString = sc.nextLine();
                         int id = Integer.parseInt(idString);

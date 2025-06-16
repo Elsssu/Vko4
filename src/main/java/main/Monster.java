@@ -32,7 +32,7 @@ public class Monster implements Serializable{
         health = health - dmg;
         String stillKicking = "juu";
         if( health <= 0){
-            System.out.println("Hirviö on kuollut");
+            System.out.println(type + " on kuollut!");
             stillKicking = "ei";
         }else{
             System.out.println("Hirviöllä on " + health + " elämää jäljellä.");
