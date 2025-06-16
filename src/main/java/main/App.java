@@ -70,7 +70,7 @@ public class App
                         break;
 
                     case 0:
-                        System.out.println("Kiitos ohjelman käytöstä.");
+                        System.out.println("Peli päättyy. Kiitos pelaamisesta!");
                         exit = true;
                         break;
                     
