@@ -37,6 +37,13 @@ public class Cave implements Serializable{
         }
         
     }
+    public void listMonsters2() {
+        int id = 0;
+        for (Monster monster : monsters) {
+                id = id + 1;
+                monster.printInfo(id);
+            }
+    }
 
     public void removeMonster(int id){
         id = id - 1;

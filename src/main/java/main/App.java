@@ -46,7 +46,7 @@ public class App
 
                     case 3:
                         System.out.println("Valitse hirviö, johon hyökätä:");
-                        cave.listMonsters();
+                        cave.listMonsters2();
                         String idString = sc.nextLine();
                         int id = Integer.parseInt(idString);
                         Monster targetMonster = cave.getMonster(id);
